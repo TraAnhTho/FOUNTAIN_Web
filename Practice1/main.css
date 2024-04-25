@@ -1,0 +1,30 @@
+.fountain {
+  color: #f77e23;
+  font: 100;
+  padding: 40px;
+}
+#header > nav > ul > il {
+  display: inline;
+  padding: 20px;
+}
+#header {
+  background-image: url(cogai.png);
+  background-repeat: no-repeat;
+  /* kích thước full màn hình */
+  background-size: cover;
+  min-height: 661px;
+  top: 802px;
+  padding: 49px 100px 6px 99px;
+  gap: 0px;
+  opacity: 0px;
+
+  /* gap: 0px;
+  opacity: 0px; */
+}
+p {
+  text-align: center;
+  color: #ffff;
+}
+.center {
+  font-size: 60px;
+}
