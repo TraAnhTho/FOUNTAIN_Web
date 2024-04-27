@@ -1,3 +1,4 @@
+main-color: "#F77E23";
 .fountain {
   color: #f77e23;
   font: 100;
@@ -11,7 +12,7 @@
   background-image: url(cogai.png);
   background-repeat: no-repeat;
   /* kích thước full màn hình */
-  background-size: cover;
+  background-size: contain;
   min-height: 661px;
   top: 802px;
   padding: 49px 100px 6px 99px;
@@ -27,4 +28,18 @@ p {
 }
 .center {
   font-size: 60px;
+}
+.khoinho {
+  align-content: center;
+  width: 569px;
+  height: 16px;
+  top: 888px;
+  /* left: 236px; */
+  padding: 38px 108px 38px 108px;
+  border-radius: 10px;
+  /* gap: 0px;
+  opacity: 0px; */
+
+  background: #ffffff;
+  box-shadow: 0px 21px 97px 0px #cfcfcf40;
 }
