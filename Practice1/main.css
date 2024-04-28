@@ -1,36 +1,38 @@
 main-color: "#F77E23";
-.head1 {
-  color: #f77e23;
-  font: 100;
-  padding: 40px;
-  flex-basis: 20%;
-}
+
 #header > nav > ul > il {
   display: inline;
-  padding: 20px;
+  padding: 30px;
 }
 #header {
   background-image: url(cogai.png);
   background-repeat: no-repeat;
-  /* kích thước full màn hình */
-  background-size: contain;
-  height: 661px;
-  top: 802px;
-  padding: 49px 100px 6px 99px;
+  /* kích thước full màn hình: cover */
+  background-size: 1440px;
+  height: 662px;
   gap: 0px;
   opacity: 0px;
+
+  /* padding: 49px 100px 6px 99px;
+  gap: 0px;
+  opacity: 0px;*/
 }
 .head {
   display: flex;
   width: 1440px;
-  height: 96.43px;
-  gap: 0px;
-  opacity: 0px;
+}
+.head1 {
+  color: #f77e23;
+  font: 100;
+  /* padding: 40px; */
+  flex-basis: 20%;
 }
 .head2 {
+  /* padding: 40px; */
   flex-basis: 50%;
 }
 .head3 {
+  /* padding: 40px; */
   flex-basis: 30%;
 }
 p {
@@ -40,11 +42,22 @@ p {
 .center {
   font-size: 60px;
 }
+.start {
+  position: absolute;
+  /* vertical-align: center; */
+  width: 157px;
+  height: 60px;
+  top: 475px;
+  left: 45%;
+  gap: 0px;
+  opacity: 0px;
+}
 .khoinho {
+  position: absolute;
   align-content: center;
-  width: 569px;
+  width: 459px;
   height: 16px;
-  top: 888px;
+  top: 618px;
   padding: 38px 108px 38px 108px;
   border-radius: 10px;
   gap: 0px;
@@ -54,16 +67,7 @@ p {
   background: #ffffff;
   box-shadow: 0px 21px 97px 0px #cfcfcf40;
 }
-.start {
-  position: absolute;
-  /* vertical-align: center; */
-  width: 157px;
-  height: 60px;
-  top: 474px;
-  left: 45%;
-  gap: 0px;
-  opacity: 0px;
-}
+
 .khoinho2 > ul > il {
   display: inline;
   padding: 15px;
