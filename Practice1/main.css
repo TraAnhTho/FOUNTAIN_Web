@@ -1,8 +1,9 @@
 main-color: "#F77E23";
-.fountain {
+.head1 {
   color: #f77e23;
   font: 100;
   padding: 40px;
+  flex-basis: 20%;
 }
 #header > nav > ul > il {
   display: inline;
@@ -13,14 +14,24 @@ main-color: "#F77E23";
   background-repeat: no-repeat;
   /* kích thước full màn hình */
   background-size: contain;
-  min-height: 661px;
+  height: 661px;
   top: 802px;
   padding: 49px 100px 6px 99px;
   gap: 0px;
   opacity: 0px;
-
-  /* gap: 0px;
-  opacity: 0px; */
+}
+.head {
+  display: flex;
+  width: 1440px;
+  height: 96.43px;
+  gap: 0px;
+  opacity: 0px;
+}
+.head2 {
+  flex-basis: 50%;
+}
+.head3 {
+  flex-basis: 30%;
 }
 p {
   text-align: center;
@@ -34,12 +45,26 @@ p {
   width: 569px;
   height: 16px;
   top: 888px;
-  /* left: 236px; */
   padding: 38px 108px 38px 108px;
   border-radius: 10px;
-  /* gap: 0px;
-  opacity: 0px; */
-
+  gap: 0px;
+  opacity: 0px;
+  position: absolute;
+  left: 15%;
   background: #ffffff;
   box-shadow: 0px 21px 97px 0px #cfcfcf40;
+}
+.start {
+  position: absolute;
+  /* vertical-align: center; */
+  width: 157px;
+  height: 60px;
+  top: 474px;
+  left: 45%;
+  gap: 0px;
+  opacity: 0px;
+}
+.khoinho2 > ul > il {
+  display: inline;
+  padding: 15px;
 }
