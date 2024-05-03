@@ -2,6 +2,9 @@ body {
   margin: 0 0;
   width: 1000px;
 }
+img {
+  image-rendering: pixelated;
+}
 /* #header > nav > ul > il {
   display: inline;
   padding: 30px;
@@ -76,7 +79,7 @@ p {
   padding: 15px;
 } */
 .gird {
-  width: 1200px;
+  width: 1110px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -87,11 +90,14 @@ p {
 #header {
   width: fit-content;
   height: 552px;
-  background-image: url(IMG/cogai.png);
+  background-image: url(IMG/cogainew.png);
+  image-rendering: pixelated;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 0 0;
   margin: 0 0;
+  /* opacity: 0.5 black; */
+  /* filter: opacity(0.3); */
 }
 ul > li {
   list-style: none;
@@ -116,13 +122,11 @@ ul > li {
 .head2 {
   flex-basis: 50%;
 }
-.regiter {
-}
 .regiter1 {
   width: 107px;
   height: 35px;
   border-radius: 5px;
-  border-color: white;
+  border: 0;
   background-color: white;
   color: #f77e23;
 }
@@ -178,7 +182,7 @@ a {
   height: 60px;
   /* padding: 15px; */
   border-radius: 5px;
-  border-color: #f77e23;
+  border: 0;
   background-color: #f77e23;
   color: white;
 }
@@ -195,6 +199,7 @@ a {
   float: right;
   padding-right: 40px;
   position: absolute;
+  border: 0;
   top: 508px;
   right: 5%;
 }
