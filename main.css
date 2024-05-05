@@ -82,7 +82,7 @@ a {
   width: 459px;
   height: 16px;
   top: 508px;
-  left: 25%;
+  left: 20%;
   padding: 38px 108px 38px 108px;
   border-radius: 10px;
   background: #ffffff;
@@ -129,24 +129,27 @@ a {
   position: absolute;
   border: 0;
   top: 508px;
-  right: 5%;
+  right: 8%;
 }
 .khoinho1_1 {
   padding: 0 10px 20px 10px;
-  /* text-align: center; */
+  text-align: center;
 }
 .khoinho3 {
   width: 20px;
   padding: 0 10px 0 0;
 }
+/* ----------------------------------------------------------------------------------------------- */
 /* PHẦN MAIN-CONTAIN */
+/* PHẦN MAIN-ONE */
 #main-content {
   width: fit-content;
-  padding: 100px 10px 20px 10px;
+  padding: 100px 10px 100px 10px;
 }
 .main-one {
   /* width: fit-content; */
   width: 1110px;
+  padding-bottom: 100px;
 }
 .main-one_content {
   /* width: fit-content; */
@@ -157,13 +160,16 @@ a {
   text-align: center;
   padding: 25px;
 }
-.img-one {
-  width: 230px;
-  height: 350px;
+.img-one1,
+.img-one2,
+.img-one3,
+.img-one4 {
+  width: 235px;
+  height: 360px;
 }
 .content-one {
   flex-basis: 25%;
-  padding: 15px;
+  padding: 10px;
 }
 .seeall {
   color: #f77e23;
@@ -184,15 +190,67 @@ a {
   /* width: fit-content; */
   width: 1100px;
   position: absolute;
-  top: 1008px;
+  top: 1000px;
 }
 .right {
   float: right;
-  /* padding-right: 40px; */
-  border: 0;
-  /* top: 508px;
-  right: 5%; */
+  right: 8%;
 }
 .left {
   float: left;
+  left: 8%;
+}
+.img-one1 {
+  background-image: url(img/img1_one.png);
+  background-position: center;
+  background-size: cover;
+}
+.img-one2 {
+  background-image: url(img/img2_one.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-one3 {
+  background-image: url(img/img3_one.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-one4 {
+  background-image: url(img/img4_one.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.label {
+  color: #ffffff;
+  padding: 10px;
+  /* vertical-align: bottom; */
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* PHẦN MAIN-TWO */
+.main-two {
+  /* width: fit-content; */
+  width: 1110px;
+  background-color: #d1c8c1;
+  padding: 100px 20px 50px 20px;
+}
+.border_dashed {
+  width: 298px;
+  height: 298px;
+  border-radius: 5389805px;
+  border: 3.38px 0px 0px 0px;
+  border-style: dashed;
+  color: #f77e23;
+}
+.img-girl {
+  width: 914.19px;
+  height: 609.05px;
+  /* top: -76.74px;
+left: -418.51px;
+gap: 0px;
+opacity: 0px; */
+
+  background-image: url(img/girl.png);
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  position: absolute;
 }
