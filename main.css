@@ -2,82 +2,10 @@ body {
   margin: 0 0;
   width: 1000px;
 }
+/* PHẦN HEADER*/
 img {
   image-rendering: pixelated;
 }
-/* #header > nav > ul > il {
-  display: inline;
-  padding: 30px;
-}
-#header {
-  background-image: url(cogai.png);
-  background-repeat: no-repeat;
-  /* kích thước full màn hình: cover 
-  background-size: 1440px;
-  top: 802px;
-  height: 662px;
-  gap: 0px;
-  opacity: 0px;
-
-  /* padding: 49px 100px 6px 99px;
-  gap: 0px;
-  opacity: 0px;
-}
-.head {
-  display: flex;
-  width: 1440px;
-}
-.head1 {
-  color: #f77e23;
-  font: 100;
-  /* padding: 40px; 
-  flex-basis: 20%;
-}
-.head2 {
-  /* padding: 40px; 
-  flex-basis: 50%;
-}
-.head3 {
-  /* padding: 40px; 
-  flex-basis: 30%;
-}
-p {
-  text-align: center;
-  color: #ffff;
-}
-.center {
-  font-size: 60px;
-}
-.start {
-  position: absolute;
-  /* vertical-align: center; 
-  width: 157px;
-  height: 60px;
-  top: 475px;
-  left: 45%;
-  gap: 0px;
-  opacity: 0px;
-}
-.khoinho {
-  position: absolute;
-  align-content: center;
-  width: 459px;
-  height: 16px;
-  top: 618px;
-  padding: 38px 108px 38px 108px;
-  border-radius: 10px;
-  gap: 0px;
-  opacity: 0px;
-  position: absolute;
-  left: 15%;
-  background: #ffffff;
-  box-shadow: 0px 21px 97px 0px #cfcfcf40;
-}
-
-.khoinho2 > ul > il {
-  display: inline;
-  padding: 15px;
-} */
 .gird {
   width: 1110px;
   max-width: 100%;
@@ -210,4 +138,61 @@ a {
 .khoinho3 {
   width: 20px;
   padding: 0 10px 0 0;
+}
+/* PHẦN MAIN-CONTAIN */
+#main-content {
+  width: fit-content;
+  padding: 100px 10px 20px 10px;
+}
+.main-one {
+  /* width: fit-content; */
+  width: 1110px;
+}
+.main-one_content {
+  /* width: fit-content; */
+  width: 1110px;
+  display: flex;
+}
+.top {
+  text-align: center;
+  padding: 25px;
+}
+.img-one {
+  width: 230px;
+  height: 350px;
+}
+.content-one {
+  flex-basis: 25%;
+  padding: 15px;
+}
+.seeall {
+  color: #f77e23;
+  padding: 10px;
+  padding-right: 40px;
+
+  float: right;
+  right: 15px;
+}
+.left1,
+.right1 {
+  border-radius: 50%;
+  background-color: #f77e23;
+  width: 40px;
+  height: 40px;
+}
+.moves {
+  /* width: fit-content; */
+  width: 1100px;
+  position: absolute;
+  top: 1008px;
+}
+.right {
+  float: right;
+  /* padding-right: 40px; */
+  border: 0;
+  /* top: 508px;
+  right: 5%; */
+}
+.left {
+  float: left;
 }
