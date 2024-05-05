@@ -231,26 +231,67 @@ a {
   /* width: fit-content; */
   width: 1110px;
   background-color: #d1c8c1;
-  padding: 100px 20px 50px 20px;
+  padding: 50px 20px 50px 20px;
+  display: flex;
 }
 .border_dashed {
-  width: 298px;
-  height: 298px;
+  width: 358px;
+  height: 358px;
   border-radius: 5389805px;
   border: 3.38px 0px 0px 0px;
   border-style: dashed;
   color: #f77e23;
+  text-align: center;
 }
 .img-girl {
-  width: 914.19px;
-  height: 609.05px;
-  /* top: -76.74px;
-left: -418.51px;
-gap: 0px;
-opacity: 0px; */
-
+  width: 1084.19px;
+  height: 459.05px;
+  top: 1234px;
+  left: -308.51px;
+  gap: 0px;
+  opacity: 0px;
   background-image: url(img/girl.png);
   /* background-position: right; */
+  /* border-radius: 53890805px; */
   background-repeat: no-repeat;
   position: absolute;
+  /* border-radius: 538900805px 0px 0px 538900805px;
+  border: 3.38px 0px 0px 0px;
+  opacity: 0px; */
+}
+.main-two_content1,
+.main-two_content2 {
+  flex-basis: 50%;
+}
+.experts {
+  font-family: Verdana;
+  font-size: 40px;
+}
+button.enroll {
+  width: 157px;
+  height: 60px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #f77e23;
+  border: 0;
+}
+div.enroll {
+  padding-top: 40px;
+}
+/* PHẦN THỨ BA */
+.main-three {
+  /* width: fit-content; */
+  width: 1110px;
+  padding: 50px 20px 50px 20px;
+}
+img.course-img-item {
+  width: 300px;
+  height: 150px;
+}
+.course {
+  display: flex;
+}
+.course-item {
+  flex-basis: 30%;
+  padding: 20px;
 }
