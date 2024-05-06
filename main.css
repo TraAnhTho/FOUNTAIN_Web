@@ -222,13 +222,13 @@ a {
   background-position: center;
   background-size: cover;
 }
-.label {
+div.label {
   color: #ffffff;
   padding: 10px;
+  float: left;
+  margin-top: 300px;
+  /* margin: 0 auto; */
 }
-/* .labeldiv {
-  vertical-align: bottom;
-} */
 /* ----------------------------------------------------------------------------------------------- */
 /* PHẦN MAIN-TWO */
 .main-two {
@@ -270,7 +270,7 @@ a {
   gap: 0px;
   opacity: 0px;
   background-image: url(img/girl.png);
-  border-radius: 53890805px;
+  border-radius: 538805px 0px 538805px 0px;
   background-repeat: no-repeat;
   position: absolute;
   /* border-radius: 538900805px 538900805px 538900805px 538900805px;
