@@ -234,6 +234,21 @@ a {
   padding: 50px 20px 50px 20px;
   display: flex;
 }
+.main-two_content1 {
+  /* width: fit-content; */
+  width: 1110px;
+  flex-basis: 40%;
+  text-align: right;
+  padding: 50px 10px 50px 50px;
+}
+.main-two_content2 {
+  /* width: fit-content; */
+  width: 1110px;
+  flex-basis: 60%;
+  text-align: left;
+  padding: 50px 100px 50px 50px;
+}
+
 .border_dashed {
   width: 358px;
   height: 358px;
@@ -246,23 +261,19 @@ a {
 .img-girl {
   width: 1084.19px;
   height: 459.05px;
-  top: 1234px;
-  left: -308.51px;
+  top: 1264px;
+  left: -258.51px;
   gap: 0px;
   opacity: 0px;
   background-image: url(img/girl.png);
-  /* background-position: right; */
-  /* border-radius: 53890805px; */
+  border-radius: 53890805px;
   background-repeat: no-repeat;
   position: absolute;
-  /* border-radius: 538900805px 0px 0px 538900805px;
+  /* border-radius: 538900805px 538900805px 538900805px 538900805px;
   border: 3.38px 0px 0px 0px;
   opacity: 0px; */
 }
-.main-two_content1,
-.main-two_content2 {
-  flex-basis: 50%;
-}
+
 .experts {
   font-family: Verdana;
   font-size: 40px;
@@ -287,11 +298,44 @@ div.enroll {
 img.course-img-item {
   width: 300px;
   height: 150px;
+  border-radius: 5px;
 }
 .course {
+  /* width: fit-content; */
+  width: 1110px;
   display: flex;
 }
 .course-item {
   flex-basis: 30%;
   padding: 20px;
+  /* border: 1px solid grey;
+  box-shadow: grey; */
+}
+.course-table-item {
+  width: 300px;
+}
+.course-td-item {
+  font-size: large;
+  text-transform: capitalize;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+img.down,
+img.star-people {
+  width: 15px;
+  height: 15px;
+}
+.course-money-item {
+  font-size: large;
+  color: #f77e23;
+}
+div.down {
+  float: right;
+  padding-right: 40px;
+}
+button.down {
+  color: #ffffff;
+  background-color: #f77e23;
+  border-radius: 0px 100px 0px 100px;
+  border: 0;
 }
