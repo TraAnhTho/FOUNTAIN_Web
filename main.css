@@ -2,10 +2,14 @@ body {
   margin: 0 0;
   width: 1100px;
 }
-/* PHẦN HEADER*/
 img {
   image-rendering: pixelated;
 }
+h1 {
+  font-size: 50px;
+}
+/* PHẦN HEADER*/
+
 .gird {
   width: 1100px;
   margin: 0 auto;
@@ -143,12 +147,11 @@ a {
   /* width: fit-content; */
   width: 1100px;
   margin: 0px 50px 0px 50px;
-
   display: flex;
 }
 .top {
   text-align: center;
-  padding: 25px;
+  padding: 20px 0px 0px 0px;
 }
 .img-one1,
 .img-one2,
@@ -231,7 +234,7 @@ div.label {
   width: 1100px;
   flex-basis: 40%;
   text-align: right;
-  padding: 50px 10px 50px 50px;
+  padding: 60px 20px 60px 60px;
 }
 .main-two_content2 {
   /* width: fit-content; */
@@ -245,10 +248,10 @@ div.label {
   width: 358px;
   height: 358px;
   border-radius: 5389805px;
-  border: 3.38px 0px 0px 0px;
   border-style: dashed;
   color: #f77e23;
   text-align: center;
+  margin-top: 20px;
 }
 .img-girl {
   width: 1084.19px;
@@ -257,7 +260,7 @@ div.label {
   left: -258.51px;
   gap: 0px;
   opacity: 0px;
-  background-image: url(img/girl.png);
+  background-image: url(https://s3-alpha-sig.figma.com/img/f679/e89e/3073efae152fa1d410419f79ad0b861e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z-COMvi6pA1Cy6-E5vWzKbkvTpWzTqWUXQmGBo37FefLfLC4y~rnkcyGQWOSpTeRsVFf29zr1yGm2rYL8sASmCxkEh4WJI19UzW0P3Ckjr2Z5ClNFtV0OwIrGDsOpsreclb90sAguJ6NczCIkcmlq6nxkpWjTIws9eNvGOjc2v8veZdHY0wwcq7ZNrrZmJ1AlVEhOTYVhuT3lBr5Vxr8e7RC-pbKDvoZR0Oi6k-5UuspKHYS0WDdVhOyIVmqzHbQYZrrvJ6wp-nEXXVl0IyAb-7hjtDtf7IzxNXG7XS15RuZJHNve3Y3IqvpE-EP-YBjAihAvUcdEYaK1sDYnNIHmQ__);
   border-radius: 50%;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -345,6 +348,7 @@ button.down {
   padding: 50px 20px 50px 20px;
   display: flex;
   flex-direction: row-reverse;
+  margin: 40px 0px;
 }
 .main-four_content1 {
   /* width: fit-content; */
@@ -365,10 +369,11 @@ button.down {
   width: 358px;
   height: 358px;
   border-radius: 5389805px;
-  border: 3.38px 0px 0px 0px;
+  /* border: 3.38px 0px 0px 0px; */
   border-style: dashed;
   color: #f77e23;
   text-align: center;
+  margin-top: 20px;
 }
 .img-girl--four {
   width: 1084.19px;
@@ -377,7 +382,8 @@ button.down {
   left: 298.51px;
   gap: 0px;
   opacity: 0px;
-  background-image: url(img/girl.png);
+  background-image: url(https://s3-alpha-sig.figma.com/img/b80a/80c4/6374d752fbbfa5e5e739ca2a58062c71?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lt4pnY~oD3KPmi8dXKLIhRB~-oS3Pd50-p~dfJnwthaVHldXiIKemXDl5o7xEffqbb5SiFm1QKQtqq6HCHjSFC3IM~8ku7lHTkSO9OktD19~IPOkqYxAN1wI9kl6kxqhI7S4Ox9SRL~UjTp2CKtBpRqjrTL6UVH3nNIc4dhwpbynOz6GsSquKv6xVCBPn5nJ28je--wGMgHEjbUgslzSiQxLtDXkUPQCbsorzkxlQoBxZUtW9B-MRTyRzbyYQYjCvmqBUHpNcwBdU~lDJFG4B52IC0O19fTw~foFPARJVKjzDA2Uw-DNC9Ncz6sK6NUT0aiP5B9aLmDqy-5pMjNPNg__);
+  transform: scaleX(-1);
   border-radius: 538805px 0px 538805px 0px;
   background-repeat: no-repeat;
   position: absolute;
@@ -406,17 +412,20 @@ div.test {
 .main-five {
   /* width: fit-content; */
   width: 1100px;
-  padding: 0px 0px 100px 0px;
+  padding: 0px 0px 10px 0px;
+  margin: 30px 0px 50px;
 }
 .main-five_content {
   /* width: fit-content; */
   width: 1100px;
+  height: 235px;
   margin: 0px 50px 0px 50px;
   display: flex;
 }
 .top--five {
   text-align: center;
   padding: 25px;
+  padding-top: 50px;
 }
 .img-five1,
 .img-five2,
@@ -447,7 +456,7 @@ div.test {
   /* width: fit-content; */
   width: 1100px;
   position: absolute;
-  top: 3650px;
+  top: 3840px;
 }
 .right--five {
   float: right;
@@ -486,27 +495,38 @@ div.label--five {
 }
 /* ----------------------------------------------------------------------------------------------- */
 /* PHẦN MAIN-SIx */
-.main-six{
+.main-six {
+  /* width: fit-content; */
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+}
+div.top-six {
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+.main-six_media {
   /* width: fit-content; */
   width: 1100px;
   background-image: linear-gradient(30deg, rgba(247, 126, 25, 0.4), #ffffff);
   padding: 50px 20px 50px 20px;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 .main-six_content1 {
   /* width: fit-content; */
   width: 1100px;
   flex-basis: 50%;
   text-align: right;
-  padding: 50px 50px 10px 50px;
+  padding: 50px 10px 50px 50px;
 }
 .main-six_content2 {
   /* width: fit-content; */
   width: 1100px;
   flex-basis: 50%;
   text-align: left;
-  padding: 50px 50px 100px 50px;
+  padding: 50px 100px 50px 50px;
 }
 
 .border_dashed--six {
@@ -518,14 +538,15 @@ div.label--five {
   color: #f77e23;
   text-align: center;
 }
-.img-girl--six{
+.img-girl--six {
   width: 1084.19px;
   height: 459.05px;
   top: 2744px;
   left: 298.51px;
   gap: 0px;
   opacity: 0px;
-  background-image: url(img/girl.png);
+  background-image: url();
+  transform: scaleX(-1);
   border-radius: 538805px 0px 538805px 0px;
   background-repeat: no-repeat;
   position: absolute;
@@ -534,14 +555,121 @@ div.label--five {
   opacity: 0px; */
 }
 /* FORM */
+form.form--six {
+  margin: 10px;
+  background-color: #ffffff;
+  background-size: cover;
+  padding: 30px 10px 100px 10px;
+  border-radius: 5px;
+}
+.input {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.information {
+  height: 15px;
+  margin: 10px;
+}
+div.button--six {
+  margin: 20px;
+  float: right;
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* PHẦN MAIN-Seven GIỐNG PHẦN one*/
+.moves--one--seven {
+  /* width: fit-content; */
+  width: 1100px;
+  position: absolute;
+  top: 5150px;
+}
+.img-one3--seven {
+  background-image: url(https://s3-alpha-sig.figma.com/img/af26/7151/7f27ca6b76bb3ce0eea9445af71ef82d?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L5g-8AkA7kPFZ-gS~73zStDomGqv9MGdxUFu5Kgz5whpM7h0I7jyhXp9wKFIZEnBvtJAHG7bYBXEXU02E--GcgXJksu7-Gkdii9Ijn5WYn9BK7RQBC2atPLK0xI~MDJvpso-GMMq8KRZCbQsCNtCf6MdvZ9-3Yps7bIYPkkutacIeWOEUX9729hywNB~aecYZFsBcQat-LDMfwBko3kJOX-S~P1E7cfq5P0wZbOxVHKsCRwAaJGR4Qu~1VNiZqqbY2Iw2JgCJdb6vJx3EWWflGsON3BBZKBMvDN27uPFdBHhphE50qAeZjrGoprb0GMZQiIlrY6i8P4bBXKgAbgT~A__);
+  background-position: center;
+  background-size: cover;
+}
+.img-one4--seven {
+  background-image: url(https://s3-alpha-sig.figma.com/img/e5dc/3855/0a261aff3048e051a17afcb6f098eece?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KoQu-JS9XAhjZBHOhw1yxCkQTVvvVX4HlVeOX5Rwfl9AmZrNHxRldPCeczeaMyZ7RBc41PVUA6N0WZr573rZRV3GiIc57JXjqmpVLbBP2mRBH3YuiJmG-GbaW1oK23OvbkZQJu8WyilSr5HNMADQZiJCNc~b-c2AM~hkVj9VLae7jYG-bolOJ8h4pv8XTj5S8gDO0Lbhd2Et5MbCBWhytPnZFhQmvKHzSP2i8nYghCrcQtAqLTjj01AZIYrXpaSGM5AZmO5h1ZvnCaY0e2Soc96fGgT9JcXVdEiRX9eeziOJ-JY-hWClFx2JEDzMnn4SaKcpTUpxpRFZ8gE-XshCiA__);
+  background-position: center;
+  background-size: cover;
+}
 
 /* ----------------------------------------------------------------------------------------------- */
+/* PHẦN MAIN-EIGHT */
+.main-eight {
+  /* width: fit-content; */
+  width: 1100px;
+  background-image: linear-gradient(30deg, rgba(247, 126, 25, 0.4), #ffffff);
+  padding: 50px 20px 50px 20px;
+  display: flex;
+  flex-direction: row;
+}
+.main-eight_content1 {
+  /* width: fit-content; */
+  width: 1100px;
+  flex-basis: 40%;
+  text-align: right;
+  padding: 60px 20px 60px 60px;
+}
+.main-eight_content2 {
+  /* width: fit-content; */
+  width: 1100px;
+  flex-basis: 60%;
+  text-align: left;
+  padding: 50px 100px 50px 50px;
+}
+
+.border_dashed--eight {
+  width: 358px;
+  height: 358px;
+  border-radius: 5389805px;
+  border-style: dashed;
+  color: #f77e23;
+  text-align: center;
+  margin-top: 20px;
+}
+.img-girl--eight {
+  width: 1084.19px;
+  height: 459.05px;
+  top: 1264px;
+  left: -258.51px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/f679/e89e/3073efae152fa1d410419f79ad0b861e?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Z-COMvi6pA1Cy6-E5vWzKbkvTpWzTqWUXQmGBo37FefLfLC4y~rnkcyGQWOSpTeRsVFf29zr1yGm2rYL8sASmCxkEh4WJI19UzW0P3Ckjr2Z5ClNFtV0OwIrGDsOpsreclb90sAguJ6NczCIkcmlq6nxkpWjTIws9eNvGOjc2v8veZdHY0wwcq7ZNrrZmJ1AlVEhOTYVhuT3lBr5Vxr8e7RC-pbKDvoZR0Oi6k-5UuspKHYS0WDdVhOyIVmqzHbQYZrrvJ6wp-nEXXVl0IyAb-7hjtDtf7IzxNXG7XS15RuZJHNve3Y3IqvpE-EP-YBjAihAvUcdEYaK1sDYnNIHmQ__);
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  /* border-radius: 538805px 0px 538805px 0px; */
+  background-repeat: no-repeat;
+  position: absolute;
+  /* border-radius: 538900805px 538900805px 538900805px 538900805px;
+  border: 3.38px 0px 0px 0px;
+  opacity: 0px; */
+}
+
+.examination--eight {
+  font-family: Verdana;
+  font-size: 40px;
+}
+button.test--eight {
+  width: 157px;
+  height: 60px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #f77e23;
+  border: 0;
+}
+div.test--eight {
+  padding-top: 40px;
+}
+/* ----------------------------------------------------------------------------------------------- */
+
 /* PHẦN MAIN-NINE GIỐNG PHẦN 5*/
 
 .moves--five--nine {
   /* width: fit-content; */
   width: 1100px;
   position: absolute;
-  top: 6150px;
-
+  top: 6550px;
+}
 /* ----------------------------------------------------------------------------------------------- */
