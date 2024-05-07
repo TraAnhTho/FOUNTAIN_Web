@@ -8,29 +8,24 @@ img {
 }
 .gird {
   width: 1100px;
-  max-width: 100%;
   margin: 0 auto;
 }
 #wrepper {
-  padding: 0 0;
-  margin: 0 0;
+  width: 1100px;
 }
 #header {
-  width: fit-content;
+  /* width: fit-content; */
+  width: 1100px;
+
   height: 552px;
   background-image: url(IMG/cogainew.png);
   image-rendering: pixelated;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 0 0;
-  margin: 0 0;
-  /* opacity: 0.5 black; */
-  /* filter: opacity(0.3); */
 }
 ul > li {
   list-style: none;
   display: inline-block;
-  /* margin: 0 8px; */
   padding: 15px;
 }
 .head {
@@ -66,9 +61,6 @@ a {
 }
 .center,
 .center1 {
-  /* display: center; */
-  /* margin: auto; */
-  /* justify-content: center; */
   color: white;
 }
 .center {
@@ -76,17 +68,17 @@ a {
 }
 
 .khoinho {
-  position: absolute;
+  position: relative;
+  left: 20%;
   align-content: center;
   display: inline-block;
   width: 459px;
   height: 16px;
-  top: 508px;
-  left: 20%;
   padding: 38px 108px 38px 108px;
   border-radius: 10px;
   background: #ffffff;
   box-shadow: 0px 21px 97px 0px #cfcfcf40;
+  margin: 53px auto 53px auto;
 }
 
 .khoinho1 > ul > li {
@@ -104,11 +96,8 @@ a {
   padding: 20px;
 }
 .start1 {
-  /* position: absolute; */
-  /* vertical-align: center; */
   width: 157px;
   height: 60px;
-  /* padding: 15px; */
   border-radius: 5px;
   border: 0;
   background-color: #f77e23;
@@ -126,10 +115,8 @@ a {
 .up {
   float: right;
   padding-right: 40px;
-  position: absolute;
   border: 0;
-  top: 508px;
-  right: 8%;
+  margin: 50px;
 }
 .khoinho1_1 {
   padding: 0 10px 20px 10px;
@@ -234,9 +221,10 @@ div.label {
 .main-two {
   /* width: fit-content; */
   width: 1100px;
-  background-color: #d1c8c1;
+  background-image: linear-gradient(30deg, rgba(247, 126, 25, 0.4), #ffffff);
   padding: 50px 20px 50px 20px;
   display: flex;
+  flex-direction: row;
 }
 .main-two_content1 {
   /* width: fit-content; */
@@ -270,7 +258,10 @@ div.label {
   gap: 0px;
   opacity: 0px;
   background-image: url(img/girl.png);
-  border-radius: 538805px 0px 538805px 0px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  /* border-radius: 538805px 0px 538805px 0px; */
   background-repeat: no-repeat;
   position: absolute;
   /* border-radius: 538900805px 538900805px 538900805px 538900805px;
@@ -310,6 +301,7 @@ img.course-img-item {
   width: 1100px;
   display: flex;
   margin: 20px 50px 0px 50px;
+  flex-wrap: wrap;
 }
 .course-item {
   flex-basis: 30%;
@@ -345,3 +337,211 @@ button.down {
   border-radius: 100px 100px 100px 100px;
   border: 0;
 }
+/* PHẦN MAIN-FOUR */
+.main-four {
+  /* width: fit-content; */
+  width: 1100px;
+  background-image: linear-gradient(30deg, rgba(247, 126, 25, 0.4), #ffffff);
+  padding: 50px 20px 50px 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.main-four_content1 {
+  /* width: fit-content; */
+  width: 1100px;
+  flex-basis: 50%;
+  text-align: right;
+  padding: 50px 50px 10px 50px;
+}
+.main-four_content2 {
+  /* width: fit-content; */
+  width: 1100px;
+  flex-basis: 50%;
+  text-align: left;
+  padding: 50px 50px 100px 50px;
+}
+
+.border_dashed--four {
+  width: 358px;
+  height: 358px;
+  border-radius: 5389805px;
+  border: 3.38px 0px 0px 0px;
+  border-style: dashed;
+  color: #f77e23;
+  text-align: center;
+}
+.img-girl--four {
+  width: 1084.19px;
+  height: 459.05px;
+  top: 2744px;
+  left: 298.51px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url(img/girl.png);
+  border-radius: 538805px 0px 538805px 0px;
+  background-repeat: no-repeat;
+  position: absolute;
+  /* border-radius: 538900805px 538900805px 538900805px 538900805px;
+  border: 3.38px 0px 0px 0px;
+  opacity: 0px; */
+}
+
+.examination {
+  font-family: Verdana;
+  font-size: 40px;
+}
+button.test {
+  width: 157px;
+  height: 60px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #f77e23;
+  border: 0;
+}
+div.test {
+  padding-top: 40px;
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* PHẦN MAIN-FIVE */
+.main-five {
+  /* width: fit-content; */
+  width: 1100px;
+  padding: 0px 0px 100px 0px;
+}
+.main-five_content {
+  /* width: fit-content; */
+  width: 1100px;
+  margin: 0px 50px 0px 50px;
+  display: flex;
+}
+.top--five {
+  text-align: center;
+  padding: 25px;
+}
+.img-five1,
+.img-five2,
+.img-five3,
+.img-five4 {
+  width: 225px;
+  height: 230px;
+  border-radius: 5px;
+}
+.content-five {
+  align-items: flex-start;
+  padding: 15px;
+}
+.seeall--five {
+  color: #f77e23;
+  padding: 10px;
+  padding-right: 45px;
+  float: right;
+}
+.left1--five,
+.right1--five {
+  border-radius: 50%;
+  background-color: #f77e23;
+  width: 40px;
+  height: 40px;
+}
+.moves--five {
+  /* width: fit-content; */
+  width: 1100px;
+  position: absolute;
+  top: 3650px;
+}
+.right--five {
+  float: right;
+  padding-right: 90px;
+  /* right: 20%; */
+}
+.left--five {
+  float: left;
+  left: 8%;
+}
+.img-five1 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/0f49/c28d/8df167acdc031b26c2e41688d52d1cbd?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UGlJ7XdJy4idD32USpDU0gs5FGc2nqaoX~30EM3noeCz0k7Za-JnvgKAx2RWG4tYFhQ18qj7gCJr2eRQ0YOPAgryGRKUzJVE29oaYYpAE3gwdCHcbhDCUKAJocSqrvvT0pPi7DtikPmmfMZNhPSzrzCFHOZWF~VqjMkNgASeJZJaQLr5SQ0C-AoDhakahp5EU45xPvtKkEJf5G-w0hwR-jGn~GgdwyUlAT40JYX80sZzuHFrKO1Anu7MgL~RsCr6CVCvVV9Z9pBkszJdKm2ihuJOdDffKhkGsS2wCZSw2kFaQf1I95yBaVNpS1oF3~WjHczW7Tw31kyoJkMU9dkIKg__);
+  background-position: center;
+  background-size: cover;
+}
+.img-five2 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/efb1/2bba/5c8115fd4238c63431d0f905fd507f67?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W-9usRfu5461xrToOw5~NyXWOvBaRFRb0vp3ZmANVTX7IfuXOKn4Y0I-E6CGwYtf549vK3JXOoWaTDDkSgcXfzzC4eG9~8~0MO81BHZuCa1GZkjlmJWY9EWWCAJyKtekZL2bi0eoqLl4yAqfzbd3-U4-A19LQ9wl5nCtCRyqCexTPSJoJyOnGgkQQD4lWPpqI8CfrbUzX0EpTf-VyfTniuIrcQ6g9DHIB58FsfpF9dwXX5ot7bxmF4EIoE5vhM~MySZEjyn7Sf0UxIUs31J0gBMpfzn2PkTQNy7bRDHsBISswk1u1K~g3vflLXX2~Fv9dHCegEVdJgRdIc0jPBORbw__);
+  background-position: center;
+  background-size: cover;
+}
+.img-five3 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/e5dc/3855/0a261aff3048e051a17afcb6f098eece?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KoQu-JS9XAhjZBHOhw1yxCkQTVvvVX4HlVeOX5Rwfl9AmZrNHxRldPCeczeaMyZ7RBc41PVUA6N0WZr573rZRV3GiIc57JXjqmpVLbBP2mRBH3YuiJmG-GbaW1oK23OvbkZQJu8WyilSr5HNMADQZiJCNc~b-c2AM~hkVj9VLae7jYG-bolOJ8h4pv8XTj5S8gDO0Lbhd2Et5MbCBWhytPnZFhQmvKHzSP2i8nYghCrcQtAqLTjj01AZIYrXpaSGM5AZmO5h1ZvnCaY0e2Soc96fGgT9JcXVdEiRX9eeziOJ-JY-hWClFx2JEDzMnn4SaKcpTUpxpRFZ8gE-XshCiA__);
+  background-position: center;
+  background-size: cover;
+}
+.img-five4 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/af26/7151/7f27ca6b76bb3ce0eea9445af71ef82d?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L5g-8AkA7kPFZ-gS~73zStDomGqv9MGdxUFu5Kgz5whpM7h0I7jyhXp9wKFIZEnBvtJAHG7bYBXEXU02E--GcgXJksu7-Gkdii9Ijn5WYn9BK7RQBC2atPLK0xI~MDJvpso-GMMq8KRZCbQsCNtCf6MdvZ9-3Yps7bIYPkkutacIeWOEUX9729hywNB~aecYZFsBcQat-LDMfwBko3kJOX-S~P1E7cfq5P0wZbOxVHKsCRwAaJGR4Qu~1VNiZqqbY2Iw2JgCJdb6vJx3EWWflGsON3BBZKBMvDN27uPFdBHhphE50qAeZjrGoprb0GMZQiIlrY6i8P4bBXKgAbgT~A__);
+  background-position: center;
+  background-size: cover;
+}
+div.label--five {
+  color: #ffffff;
+  padding: 10px;
+  float: left;
+  margin-top: 300px;
+}
+/* ----------------------------------------------------------------------------------------------- */
+/* PHẦN MAIN-SIx */
+.main-six{
+  /* width: fit-content; */
+  width: 1100px;
+  background-image: linear-gradient(30deg, rgba(247, 126, 25, 0.4), #ffffff);
+  padding: 50px 20px 50px 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.main-six_content1 {
+  /* width: fit-content; */
+  width: 1100px;
+  flex-basis: 50%;
+  text-align: right;
+  padding: 50px 50px 10px 50px;
+}
+.main-six_content2 {
+  /* width: fit-content; */
+  width: 1100px;
+  flex-basis: 50%;
+  text-align: left;
+  padding: 50px 50px 100px 50px;
+}
+
+.border_dashed--six {
+  width: 358px;
+  height: 358px;
+  border-radius: 5389805px;
+  border: 3.38px 0px 0px 0px;
+  border-style: dashed;
+  color: #f77e23;
+  text-align: center;
+}
+.img-girl--six{
+  width: 1084.19px;
+  height: 459.05px;
+  top: 2744px;
+  left: 298.51px;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url(img/girl.png);
+  border-radius: 538805px 0px 538805px 0px;
+  background-repeat: no-repeat;
+  position: absolute;
+  /* border-radius: 538900805px 538900805px 538900805px 538900805px;
+  border: 3.38px 0px 0px 0px;
+  opacity: 0px; */
+}
+/* FORM */
+
+/* ----------------------------------------------------------------------------------------------- */
+/* PHẦN MAIN-NINE GIỐNG PHẦN 5*/
+
+.moves--five--nine {
+  /* width: fit-content; */
+  width: 1100px;
+  position: absolute;
+  top: 6150px;
+
+/* ----------------------------------------------------------------------------------------------- */
