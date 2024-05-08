@@ -1,0 +1,33 @@
+/* Đặt biến phụ toàn cục*/
+:root {
+  --color_main: linear-gradient(90deg, rgb(255, 182, 193), rgb(255, 255, 255));
+}
+* {
+  /* khi padding,... không bị thay đổi kích thước */
+  box-sizing: inherit;
+}
+html {
+  /* 1rem=10px */
+  font-size: 62.5%;
+  /* độ cao khoảng cách các dòng chữ */
+  line-height: 1.6rem;
+  /* font chữ  */
+  font-family: "Roboto", sans-serif;
+  /* khi padding,... không bị thay đổi kích thước */
+  box-sizing: border-box;
+}
+/* nền móng cho responsive */
+.gird {
+  /* nếu kichthuoc be hơn 1200px tự điều chỉnh */
+  width: 1200px;
+  max-width: 100%;
+  /* căn giữa */
+  margin: 0 auto;
+}
+.gird__full-width {
+  width: 100%;
+}
+.gird__row {
+  display: flex;
+  flex-wrap: wrap;
+}
