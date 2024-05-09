@@ -3,23 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="base.css"  class="" />
-    <link rel="stylesheet" href="main.css"  class="" />
-    <link rel="stylesheet" href="main1.css" class="" />
-    <link rel="stylesheet" href="main2.css" class="" />
-    <link rel="stylesheet" href="main3.css" class="" />
-    <link rel="stylesheet" href="main4.css" class="" />
-
-
-    <link rel="stylesheet" href="hover.css" class="" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.5.2/css/all.min.css">
     
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-    <!-- <link href="https://fonts.goopleaps.com/css?"> -->
+    <link rel="stylesheet" href="base.css"  class="" />
+    <link rel="stylesheet" href="general.css"  class="" />
+    <link rel="stylesheet" href="header.css"  class="" />
+    <link rel="stylesheet" href="main.css"  class="" />
+    <link rel="stylesheet" href="footer.css"  class="" />
+    <link rel="stylesheet" href="hover.css" class="" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
     <title>FOUNTAIN</title>
   </head>
-  <body>
+  <body style="over-flow:auto;">
     <div id="wrepper">
       <!-- PHẦN HEADER -->
       <div id="header">
@@ -41,8 +40,9 @@
               </nav>
               <nav class="nav__head3">
                 <ul class="nav__head">
+                  <i class="icon_while fa-solid fa-magnifying-glass"></i>
                   <li class="head head--login">
-                    <i class="fa-solid fa-magnifying-glass"></i><a class="head" href="">Login</a>
+                    <a class="head" href="">Login</a>
                   </li>
                   <li class="head head--regiter">
                     <button class="regiter1">Regiter</button>
@@ -68,7 +68,7 @@
               </div>
             </div>
             <div class="up">
-              <button class="up1"><i class="fa-solid fa-arrow-up"></i></button>
+              <button class="up1"><i class="icon_while icon_button fa-solid fa-arrow-up"></i></button>
             </div>
           </div>
         </div>
@@ -77,28 +77,16 @@
           <nav class="khoinho1">
             <ul class="khoinho1_1">
               <li class="head head--khoinho2">
-                <a href="">Live Chat</a
-                ><img
-                  class="khoinho3"
-                  src="IMG/chat.png"
-                  alt=""
-                />
+                <a href=""><i class="icon_colormain fa-regular fa-comment"></i>Live Chat</a
+                >
               </li>
               <li class="head head--khoinho2">
-                <a  href="">Examination</a
-                ><img
-                  class="khoinho3"
-                  src="IMG/boxing.png"
-                  alt=""
-                />
+                <a  href=""><i class="icon_colormain fa-regular fa-handshake"></i>  Examination</a
+                >
               </li>
               <li class="head head--khoinho2">
-                <a href="">Competition</a
-                ><img
-                  class="khoinho3"
-                  src="IMG/people.png"
-                  alt=""
-                />
+                <a href=""><i class="icon_colormain fa-solid fa-user"></i>Competition</a
+                >
               </li>
             </ul>
           </nav>
@@ -142,14 +130,12 @@
             <div class="moves moves--one">
               <div class="left">
                 <button class="left1">
-                  <i class="fa-solid fa-chevron-left"></i>
-                  <!-- <img src="IMG/left.png" alt="" /> -->
+                  <i class="icon_while icon_button fa-solid fa-chevron-left"></i>
                 </button>
               </div>
               <div class="right">
                 <button class="right1">
-                  <i class="fa-solid fa-chevron-right"></i>
-                  <!-- <img src="IMG/right.png" alt="" /> -->
+                  <i class="icon_while icon_button fa-solid fa-chevron-right"></i>
                 </button>
               </div>
             </div>
@@ -186,7 +172,7 @@
         <div class="main-three">
           <div class="gird gird--center--column">
             <div class="top"><h1 >Explore our <br> popular course</h1></div>
-            <div class="endline"><button class="down">Sort by</button></div>
+            <div class="endline"><button class="down"><i class="icon_while icon_button fa-solid fa-chevron-down"></i>&nbsp Sort by</button></div>
             <div class="course">
               <!-- 1------------------------------- -->
               <div class="course-item">
@@ -194,11 +180,11 @@
                   <table class="course-table-item" >
                     <tr class="course-tr-item">
                       <td class="course-td-item" colspan="2" >Learn Marketing from <br>Top Instructors.</td>
-                      <td colspan="2"><i class=" star-people fa-regular fa-star"></i>4.5</td>
+                      <td colspan="2"><i class="icon_colormain star-people fa-regular fa-star"></i>4.5</td>
                     </tr>
                     <tr class="course-tr-item">
                       <td><span>6 weeks</span></td>
-                      <td><span><img src="img/people.png" alt="" class="star-people">1.5k Students</span></td>
+                      <td><span><i class="icon_colormain fa-solid fa-user"></i>1.5k Students</span></td>
                       <td class="course-money-item"><b>30.5$</b></td>
                     </tr>
                   </table>
@@ -210,11 +196,11 @@
                   <table class="course-table-item" >
                     <tr class="course-tr-item">
                       <td class="course-td-item" colspan="2" >Front-end development <br> is not hard as you think</td>
-                      <td colspan="2"><img src="img/star.png" alt="" class="star-people">4.5</td>
+                      <td colspan="2"><i class="icon_colormain fa-regular fa-star"></i>4.5</td>
                     </tr>
                     <tr class="course-tr-item">
                       <td><span>6 weeks</span></td>
-                      <td><span><img src="img/people.png" alt="" class="star-people">1.5k Students</span></td>
+                      <td><span><i class="icon_colormain fa-solid fa-user"></i>1.5k Students</span></td>
                       <td class="course-money-item"><b>30.5$</b></td>
                     </tr>
                   </table>
@@ -226,11 +212,11 @@
                   <table class="course-table-item" >
                     <tr class="course-tr-item">
                       <td class="course-td-item" colspan="2" >Everrything you need to <br>know in UX</td>
-                      <td colspan="2"><img src="img/star.png" alt="" class="star-people">4.5</td>
+                      <td colspan="2"><i class="icon_colormain fa-regular fa-star"></i>4.5</td>
                     </tr>
                     <tr class="course-tr-item">
                       <td><span>6 weeks</span></td>
-                      <td><span><img src="img/people.png" alt="" class="star-people">1.5k Students</span></td>
+                      <td><span><i class="icon_colormain fa-solid fa-user"></i>1.5k Students</span></td>
                       <td class="course-money-item"><b>30.5$</b></td>
                     </tr>
                   </table>
@@ -242,11 +228,11 @@
                   <table class="course-table-item" >
                     <tr class="course-tr-item">
                       <td class="course-td-item" colspan="2" >Learn photography with <br>ease</td>
-                      <td colspan="2"><img src="img/star.png" alt="" class="star-people">4.5</td>
+                      <td colspan="2"><i class="icon_colormain fa-regular fa-star"></i>4.5</td>
                     </tr>
                     <tr class="course-tr-item">
                       <td><span>6 weeks</span></td>
-                      <td><span><img src="img/people.png" alt="" class="star-people">1.5k Students</span></td>
+                      <td><span><i class="icon_colormain fa-solid fa-user"></i>1.5k Students</span></td>
                       <td class="course-money-item"><b>30.5$</b></td>
                     </tr>
                   </table>
@@ -258,11 +244,11 @@
                   <table class="course-table-item" >
                     <tr class="course-tr-item">
                       <td class="course-td-item" colspan="2" >Be a pro in data <br>analysis</td>
-                      <td colspan="2"><img src="img/star.png" alt="" class="star-people">4.5</td>
+                      <td colspan="2"><i class="icon_colormain fa-regular fa-star"></i>4.5</td>
                     </tr>
                     <tr class="course-tr-item">
                       <td><span>6 weeks</span></td>
-                      <td><span><img src="img/people.png" alt="" class="star-people">1.5k Students</span></td>
+                      <td><span><i class="icon_colormain fa-solid fa-user"></i>1.5k Students</span></td>
                       <td class="course-money-item"><b>30.5$</b></td>
                     </tr>
                   </table>
@@ -274,11 +260,11 @@
                   <table class="course-table-item" >
                     <tr class="course-tr-item">
                       <td class="course-td-item" colspan="2" >Ethical Harking is not <br>hard as you think </td>
-                      <td colspan="2"><img src="img/star.png" alt="" class="star-people">4.5</td>
+                      <td colspan="2"><i class="icon_colormain fa-regular fa-star"></i>4.5</td>
                     </tr>
                     <tr class="course-tr-item">
                       <td><span>6 weeks</span></td>
-                      <td><span><img src="img/people.png" alt="" class="star-people">1.5k Students</span></td>
+                      <td><span><i class="icon_colormain fa-solid fa-user"></i>1.5k Students</span></td>
                       <td class="course-money-item"><b>30.5$</b></td>
                     </tr>
                   </table>
@@ -343,12 +329,12 @@
               <div class="moves moves--five">
                 <div class="left--five">
                   <button class="left1--five">
-                    <img src="IMG/left.png" alt="" />
+                    <i class="icon_while icon_button fa-solid fa-chevron-left"></i>
                   </button>
                 </div>
                 <div class="right--five">
                   <button class="right1--five">
-                    <img src="IMG/right.png" alt="" />
+                    <i class="icon_while icon_button fa-solid fa-chevron-right"></i>
                   </button>
                 </div>
               </div>
@@ -357,10 +343,10 @@
         </div>
         <!-- PHẦN THỨ SÁU FORM -->
         <div class="main-six">
-          <div class="gird gird--center gird--center--column">
-            <div class="top"><h1 class="top--six">Competate with various scholars <br> around the globe</h1>
-            </div>
-            <div class="main-six_background">
+          <div class="top"><h1 class="top--six">Competate with various scholars <br> around the globe</h1>
+          </div>
+          <div class="main-six_background">
+            <div class="gird gird--center gird--center--row">
               <div class="main-six_content1">
                 <div class="border_dashed--six"></div>
                 <div class="img-boy--six"></div>
@@ -419,14 +405,12 @@
             <div class="moves moves--one">
               <div class="left">
                 <button class="left1">
-                  <i class="fa-solid fa-chevron-left"></i>
-                  <!-- <img src="IMG/left.png" alt="" /> -->
+                  <i class="icon_while icon_button fa-solid fa-chevron-left"></i>
                 </button>
               </div>
               <div class="right">
                 <button class="right1">
-                  <i class="fa-solid fa-chevron-right"></i>
-                  <!-- <img src="IMG/right.png" alt="" /> -->
+                  <i class="icon_while icon_button fa-solid fa-chevron-right"></i>
                 </button>
               </div>
             </div>
@@ -489,12 +473,12 @@
               <div class="moves moves--five">
                 <div class="left--five">
                   <button class="left1--five">
-                    <img src="IMG/left.png" alt="" />
+                    <i class="icon_while icon_button fa-solid fa-chevron-left"></i>
                   </button>
                 </div>
                 <div class="right--five">
                   <button class="right1--five">
-                    <img src="IMG/right.png" alt="" />
+                    <i class="icon_while icon_button fa-solid fa-chevron-right"></i>
                   </button>
                 </div>
               </div>
@@ -504,9 +488,17 @@
         <!-- PHẦN THỨ MƯỜI -->
         <div class="main-ten">
           <div class="gird gird--center gird--center--row">
+            <div class="top"><h1 class="review">Reviews</h1></div>
+            <div class="content_ten">
+              <div class="box box--one">
 
+              </div>
+              <div class="box"></div>
+              <div class="box"></div>
+            </div>
           </div>
         </div>
+        <!-- ---------------------------------------------------------------------------------- -->
       </div>
 
       <!-- ---------------------------------------------------------------------------------- -->

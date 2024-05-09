@@ -1,0 +1,128 @@
+/* PHẦN HEADER*/
+#header {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    height: 40rem;
+    min-width: 100%;
+    animation: fadeIn ease 2s;
+  }
+  .header__background {
+    width: 100%;
+    height: 35.5rem;
+    background-image: url(IMG/cogainew.png);
+    image-rendering: pixelated;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .nav__head {
+    text-align: center;
+    margin: 0 0;
+    padding: 0 0;
+  }
+  li.head > a {
+    text-decoration: none;
+  }
+  li > a.head {
+    color: #ffffff;
+  }
+  li.head--login {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  .header__nav {
+    display: flex;
+  }
+  .nav__head1,
+  .head1 {
+    flex-basis: 25%;
+    font-size: larger;
+    padding: 0 0 0 2rem;
+    color: #f77e23;
+    margin: auto 0;
+  }
+  .nav__head3 {
+    flex-basis: 25%;
+    margin: auto 0;
+  }
+  .nav__head2 {
+    flex-basis: 50%;
+    margin: auto 0;
+  }
+  .regiter1 {
+    width: 107px;
+    height: 35px;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    color: #f77e23;
+  }
+  .center,
+  .center1 {
+    color: white;
+  }
+  .center {
+    font-size: 3rem;
+  }
+  
+  .khoinho {
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40rem;
+    height: 5.5rem;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow: 0px 0.5rem 0.5rem 0px #cfcfcf40;
+  }
+  .khoinho1 {
+    display: flex;
+  }
+  .head--khoinho2 {
+    color: black;
+    padding: 10px;
+    margin: 0 0;
+  }
+  .main {
+    text-align: center;
+  }
+  .start {
+    margin: 3.5rem;
+  }
+  .start1 {
+    width: 157px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #f77e23;
+    color: white;
+  }
+  .search {
+    width: 15px;
+    padding: 0 10px 0 0;
+  }
+  .up1 {
+    border-radius: 50%;
+    background-color: #f77e23;
+    width: 40px;
+    height: 40px;
+  }
+  .up {
+    float: right;
+    right: 50rem;
+    border: 0;
+    margin: 1rem 10rem 0 0;
+  }
+  .khoinho1_1 {
+    padding: 0 10px 20px 10px;
+    text-align: center;
+  }
+  .khoinho3 {
+    width: 20px;
+    padding: 0 10px 0 0;
+  }
+  /* ----------------------------------------------------------------------------------------------- */
+  /* PHẦN FOOTER*/
+  
