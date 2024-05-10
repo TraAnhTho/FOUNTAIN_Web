@@ -2,8 +2,9 @@
   --color_main: #f77e23;
   --domo: rgba(0, 0, 0, 0.5);
   --color_while: #ffff;
-  --background_main:  linear-gradient(30deg, rgba(247, 126, 25, 0.4), #ffffff);
+  --color_black: #000;
 
+  --background_main: linear-gradient(30deg, rgba(247, 126, 25, 0.4), #ffffff);
 }
 * {
   box-sizing: inherit;
@@ -14,9 +15,9 @@ html {
   color: black;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   box-sizing: border-box;
+  margin: auto auto;
 }
 #wrepper {
   min-width: fit-content;
+  margin: auto auto;
 }
-
-

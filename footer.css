@@ -1,0 +1,16 @@
+/* PHẦN FOOTER */
+#footer {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  min-width: 100%;
+  height: 500px;
+  animation: fadeIn ease 2s;
+}
+.background_black {
+  background-color: var(--color_black);
+  width: 100%;
+  image-rendering: pixelated;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

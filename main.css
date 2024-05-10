@@ -181,6 +181,7 @@ img.star-people {
 }
 
 .course-money-item {
+  text-align: center;
   font-size: large;
   color: #f77e23;
 }
@@ -389,13 +390,13 @@ div.label--five {
   background-repeat: no-repeat;
   position: absolute;
 }
-/* FORM */
+/* FORM main6*/
 form.form--six {
-  margin: 10px;
+  margin: 0.5px;
   background-color: #ffffff;
-  background-size: cover;
-  padding: 30px 10px 100px 10px;
-  border-radius: 5px;
+  padding: 3rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.5) 0px 0px 30px 20px;
 }
 .input {
   display: flex;
@@ -482,3 +483,53 @@ div.test--eight {
 .review {
   font-size: 2rem;
 }
+.content_ten {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box {
+  flex: 1;
+  margin: 1rem;
+}
+.students {
+  font-size: 3rem;
+  margin-bottom: 0%;
+}
+.moves--ten {
+  justify-content: left;
+}
+.left--ten,
+.right--ten {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid #f77e23;
+  background-color: var(--color_while);
+  margin: 1rem;
+}
+.shadow {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.aqua {
+  display: flex;
+  margin: 2rem;
+}
+.aqua_label--label {
+  margin: 0 1rem;
+}
+.aqua_img--one {
+  width: 3rem;
+  height: 3rem;
+  background-image: url(img/cogainew.png);
+  border-radius: 50%;
+}
+.aqua_img--two {
+  width: 3rem;
+  height: 3rem;
+  background-image: url(img/cogainew.png);
+  border-radius: 50%;
+}
+/* -------------------------------------------------------- */
