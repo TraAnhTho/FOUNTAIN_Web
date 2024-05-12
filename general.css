@@ -71,32 +71,11 @@ h1 {
   display: flex;
   /* margin: 0 auto; */
 }
-.box_moves--2 {
-  top: 226px;
-  left: 307px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-}
 .boxmoves {
   justify-content: center;
   margin: 0 auto;
+  line-height: 0.9rem;
   text-align: center;
-}
-.img_tripple {
-  display: flex;
-  max-width: 6rem;
-  justify-content: ;
-}
-.img_tripple_boy {
-  margin: 0.1rem;
-  padding: 0;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 50px;
-  background-position: center 50%;
-  background-image: url(https://s3-alpha-sig.figma.com/img/3f7b/ea47/f4117b52225de7a6e196c4397746c1aa?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jp04XFXjbRdnbLZ49EVl5~7VpF~yPrQOre5NMwtnux-4ahjP-8vXocGzrcIxAL6byXmm7Og-Qes4sj6-rZR4JZApQFFnISmNk4KEOlSX~Hufz0xnGS4kCdBzzRYA-zwIDOoUMGQXoGKifB0XhIpmLYEVaaRijZgFm03EF-d4hsJfTHb48ww90siDVcb~tlpwHl-cm5jzcU~A-LqEN4jeEGHoeqGHKlm9J7aCWgvloXLlDrTn39QxWBAfpvLEFVhDl9tXNce7BGSPy5aUVHck3xmQb8MKEWMsdw7KJobO7s9G4azg2N0IaU4hU3ZcmnMJ2b95ABUrZzha3hpCF0qr-Q__);
 }
 .box_moves--4 {
   top: 8rem;

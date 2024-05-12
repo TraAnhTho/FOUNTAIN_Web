@@ -4,7 +4,6 @@
   display: inline-flex;
   justify-content: center;
   min-width: 100%;
-  height: 500px;
   animation: fadeIn ease 2s;
 }
 .background_black {
@@ -13,4 +12,28 @@
   image-rendering: pixelated;
   background-size: cover;
   background-repeat: no-repeat;
+}
+.footerbox {
+  flex: 0.6 0.2 0.1;
+  justify-content: space-around;
+}
+.footer_box {
+  width: 100%;
+}
+.footer_box--1 {
+  display: flex;
+
+  justify-content: space-around;
+}
+.footer_box--1--content {
+}
+.footer_box--2 {
+  text-align: center;
+}
+.fontw {
+}
+.email_button {
+  margin: 0;
+  height: 2rem;
+  width: 100%;
 }
