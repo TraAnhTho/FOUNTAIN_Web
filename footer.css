@@ -12,6 +12,8 @@
   image-rendering: pixelated;
   background-size: cover;
   background-repeat: no-repeat;
+  /* Tablet */
+  padding-right: 50px;
 }
 .footerbox {
   flex: 0.6 0.2 0.1;
@@ -33,7 +35,8 @@
 .fontw {
 }
 .email_button {
-  margin: 0;
+  margin: auto;
   height: 2rem;
-  width: 100%;
+  width: 50%;
 }
+

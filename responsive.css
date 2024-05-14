@@ -1,0 +1,29 @@
+.bars {
+  display: none;
+}
+/* Pc */
+@media (min-width: 1024px) {
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+/* Mobie */
+@media (max-width: 740px) {
+  .header__background {
+    background-position: center;
+  }
+  .bars {
+    display: block;
+  }
+  .header__nav {
+    display: block;
+  }
+  .nav__head2,
+  .nav__head3 {
+    display: none;
+  }
+  .bars:checked.nav__head2,
+  .bars:active.nav__head3 {
+    display: block;
+  }
+}
