@@ -1,0 +1,106 @@
+/* PHẦN MAIN-TWO */
+.main-two {
+  background-image: var(--background_main);
+}
+
+.main-two_content1 {
+  flex-basis: 40%;
+  text-align: right;
+  padding: 60px 20px 60px 60px;
+  position: relative;
+}
+.main-two_content2 {
+  flex-basis: 60%;
+  text-align: left;
+  padding: 50px 100px 50px 50px;
+}
+
+.border_dashed {
+  width: 358px;
+  height: 358px;
+  border-radius: 5389805px;
+  border-style: dashed;
+  color: #f77e23;
+  text-align: center;
+  margin-top: 20px;
+}
+.img-girl {
+  width: 383px;
+  height: 453px;
+  top: -3rem;
+  left: 4.5rem;
+  gap: 0px;
+  opacity: 0px;
+  background-image: url(/IMG/girl.png);
+  background-position: right;
+  border-radius: 50%;
+  border-top-left-radius: 250%;
+  border-bottom-left-radius: 150%;
+  border-bottom-right-radius: 200%;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.experts {
+  font-family: Verdana;
+  font-size: 40px;
+}
+button.enroll {
+  width: 157px;
+  height: 60px;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #f77e23;
+  border: 0;
+}
+div.enroll {
+  padding-top: 40px;
+}
+/* Phần khôi nhỏ 2 */
+.box_moves--2 {
+  top: 226px;
+  left: 307px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.img_tripple {
+  display: flex;
+  max-width: 6rem;
+  position: relative;
+
+  justify-content: center;
+}
+.img_tripple_boy {
+  position: absolute;
+  flex: 1;
+  margin: 0 10px;
+  /* margin: 0.1rem; */
+  padding: 10px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+  background-image: url(https://s3-alpha-sig.figma.com/img/3f7b/ea47/f4117b52225de7a6e196c4397746c1aa?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jp04XFXjbRdnbLZ49EVl5~7VpF~yPrQOre5NMwtnux-4ahjP-8vXocGzrcIxAL6byXmm7Og-Qes4sj6-rZR4JZApQFFnISmNk4KEOlSX~Hufz0xnGS4kCdBzzRYA-zwIDOoUMGQXoGKifB0XhIpmLYEVaaRijZgFm03EF-d4hsJfTHb48ww90siDVcb~tlpwHl-cm5jzcU~A-LqEN4jeEGHoeqGHKlm9J7aCWgvloXLlDrTn39QxWBAfpvLEFVhDl9tXNce7BGSPy5aUVHck3xmQb8MKEWMsdw7KJobO7s9G4azg2N0IaU4hU3ZcmnMJ2b95ABUrZzha3hpCF0qr-Q__);
+}
+.img_tripple_boy--1 {
+  margin-left: -2.5rem;
+}
+.img_tripple_boy--3 {
+  margin-left: 3.5rem;
+}
+/* .img_while{
+      position: absolute;
+      flex: 1;
+      margin: 0 10px;
+      /* margin: 0.1rem; 
+      padding: 10px;
+      width: 2rem;
+      height: 2rem;
+      border-radius: 50%;
+    } 
+    */
+
+/* ----------------------------------------------------------------------------------------------- */

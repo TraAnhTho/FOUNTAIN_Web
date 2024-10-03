@@ -1,0 +1,23 @@
+{
+  "name": "HTML_CSS_JS",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel ./src/pages/index.html",
+    "build": "posthtml ./src/pages/index.html -o ./src/dist/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "posthtml": "^0.16.6",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.4",
+    "sass": "^1.75.0"
+  },
+  "dependencies": {
+    "@parcel/transformer-sass": "^2.10.0"
+  }
+}

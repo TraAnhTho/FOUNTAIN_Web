@@ -1,0 +1,87 @@
+.bars {
+    display: none;
+  }
+  /* Pc */
+  @media (min-width: 1024px) {
+  }
+  /* Tablet */
+  @media (min-width: 740px) and (max-width: 1023px) {
+    .course-item {
+      flex-basis: 40%;
+    }
+  }
+  /* Mobie */
+  @media (max-width: 740px) {
+    #wrepper {
+      /* overflow: hidden; */
+    }
+    .gird {
+      width: 700px;
+    }
+    * {
+    }
+    body {
+      
+      width: 100vw;
+      overflow: auto;
+      margin: 0;
+    }
+    div.up {
+      display: none;
+    }
+    html {
+      /* 1rem=10px */
+      font-size: 40px;
+    }
+    #header {
+      padding: 0 3rem 2rem 0;
+      height: 1000px;
+      /* overflow: hidden; */
+    }
+    .header__background {
+      /* height: 600px; */
+      padding: 0 26rem 0 5rem;
+      box-sizing: unset;
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    .nav__head1 {
+      display: flex;
+      flex-direction: row;
+    }
+    .bars {
+      display: block;
+      margin-left: 10rem;
+    }
+    .header__nav {
+      display: block;
+    }
+    .nav__head2,
+    .nav__head3 {
+      display: none;
+    }
+    .bars:hover.nav__head2,
+    .bars:hover.nav__head3 {
+      display: block;
+    }
+    /* Main two */
+  
+    .main-two--flex {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .main-two_content1,
+    .main-two_content2 {
+      text-align: center;
+      margin: auto;
+    }
+    .content-one {
+    }
+    /* main four */
+    .course-item {
+      flex-basis: 40%;
+    }
+  }
+  

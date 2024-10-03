@@ -15,6 +15,7 @@ html {
   font-family: "Roboto", sans-serif;
   /* khi padding,... không bị thay đổi kích thước */
   box-sizing: border-box;
+  width: 100vw;
 }
 /* nền móng cho responsive */
 .gird {

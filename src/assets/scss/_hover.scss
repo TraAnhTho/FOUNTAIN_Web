@@ -1,0 +1,25 @@
+li.head > a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  /* phần main one */
+  .img_one:hover.img_one::after {
+    display: none;
+  }
+  /* phần main five */
+  .img-five:hover.img-five::after {
+    display: none;
+  }
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
