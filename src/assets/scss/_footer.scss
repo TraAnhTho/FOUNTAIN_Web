@@ -12,7 +12,7 @@
   image-rendering: pixelated;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 2rem 0;
+  padding: 2rem 0.8rem;
   /* Tablet */
   //   padding-right: 50px;
 }
@@ -23,6 +23,7 @@
 .footer_box {
   width: 100%;
 }
+.footer_box--3,
 .footer_box--1 {
   display: flex;
 
@@ -38,5 +39,7 @@
 .email_button {
   margin: auto;
   height: 2rem;
-  width: 50%;
+  width: 70%;
+}.footer_box--3{
+  display:none;
 }

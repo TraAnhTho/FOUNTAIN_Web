@@ -155,6 +155,10 @@ h1 {
   margin: auto;
 }
 
+button.enroll {
+  text-align: center;
+}
+
 /* PHẦN HEADER*/
 #header {
   position: relative;
@@ -506,7 +510,7 @@ div.enroll {
   border-radius: 50%;
   background-position: center;
   background-size: cover;
-  background-image: url(https://s3-alpha-sig.figma.com/img/3f7b/ea47/f4117b52225de7a6e196c4397746c1aa?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jp04XFXjbRdnbLZ49EVl5~7VpF~yPrQOre5NMwtnux-4ahjP-8vXocGzrcIxAL6byXmm7Og-Qes4sj6-rZR4JZApQFFnISmNk4KEOlSX~Hufz0xnGS4kCdBzzRYA-zwIDOoUMGQXoGKifB0XhIpmLYEVaaRijZgFm03EF-d4hsJfTHb48ww90siDVcb~tlpwHl-cm5jzcU~A-LqEN4jeEGHoeqGHKlm9J7aCWgvloXLlDrTn39QxWBAfpvLEFVhDl9tXNce7BGSPy5aUVHck3xmQb8MKEWMsdw7KJobO7s9G4azg2N0IaU4hU3ZcmnMJ2b95ABUrZzha3hpCF0qr-Q__);
+  background-image: url(/src/IMG/triple_boy.jpg);
 }
 
 .img_tripple_boy--1 {
@@ -628,10 +632,10 @@ button.down {
   width: 403px;
   height: 403px;
   top: -3.5rem;
-  right: 9rem;
+  right: 7rem;
   gap: 0px;
   opacity: 0px;
-  background-image: url(https://s3-alpha-sig.figma.com/img/b80a/80c4/6374d752fbbfa5e5e739ca2a58062c71?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lt4pnY~oD3KPmi8dXKLIhRB~-oS3Pd50-p~dfJnwthaVHldXiIKemXDl5o7xEffqbb5SiFm1QKQtqq6HCHjSFC3IM~8ku7lHTkSO9OktD19~IPOkqYxAN1wI9kl6kxqhI7S4Ox9SRL~UjTp2CKtBpRqjrTL6UVH3nNIc4dhwpbynOz6GsSquKv6xVCBPn5nJ28je--wGMgHEjbUgslzSiQxLtDXkUPQCbsorzkxlQoBxZUtW9B-MRTyRzbyYQYjCvmqBUHpNcwBdU~lDJFG4B52IC0O19fTw~foFPARJVKjzDA2Uw-DNC9Ncz6sK6NUT0aiP5B9aLmDqy-5pMjNPNg__);
+  background-image: url(/src/IMG/thegirlhair.png);
   background-position: center top;
   transform: scaleX(-1);
   border-radius: 50%;
@@ -663,7 +667,7 @@ div.test {
 /* ----------------------------------------------------------------------------------------------- */
 /* PHẦN MAIN-FIVE */
 .main-five {
-  margin: 3rem 1.5rem;
+  margin: 3rem 0rem;
 }
 
 .main-five_content {
@@ -736,25 +740,25 @@ div.test {
 }
 
 .img-five--1 {
-  background-image: url(https://s3-alpha-sig.figma.com/img/0f49/c28d/8df167acdc031b26c2e41688d52d1cbd?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UGlJ7XdJy4idD32USpDU0gs5FGc2nqaoX~30EM3noeCz0k7Za-JnvgKAx2RWG4tYFhQ18qj7gCJr2eRQ0YOPAgryGRKUzJVE29oaYYpAE3gwdCHcbhDCUKAJocSqrvvT0pPi7DtikPmmfMZNhPSzrzCFHOZWF~VqjMkNgASeJZJaQLr5SQ0C-AoDhakahp5EU45xPvtKkEJf5G-w0hwR-jGn~GgdwyUlAT40JYX80sZzuHFrKO1Anu7MgL~RsCr6CVCvVV9Z9pBkszJdKm2ihuJOdDffKhkGsS2wCZSw2kFaQf1I95yBaVNpS1oF3~WjHczW7Tw31kyoJkMU9dkIKg__);
+  background-image: url(/src/IMG/pic1-p5.png);
   background-position: center;
   background-size: cover;
 }
 
 .img-five--2 {
-  background-image: url(https://s3-alpha-sig.figma.com/img/efb1/2bba/5c8115fd4238c63431d0f905fd507f67?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W-9usRfu5461xrToOw5~NyXWOvBaRFRb0vp3ZmANVTX7IfuXOKn4Y0I-E6CGwYtf549vK3JXOoWaTDDkSgcXfzzC4eG9~8~0MO81BHZuCa1GZkjlmJWY9EWWCAJyKtekZL2bi0eoqLl4yAqfzbd3-U4-A19LQ9wl5nCtCRyqCexTPSJoJyOnGgkQQD4lWPpqI8CfrbUzX0EpTf-VyfTniuIrcQ6g9DHIB58FsfpF9dwXX5ot7bxmF4EIoE5vhM~MySZEjyn7Sf0UxIUs31J0gBMpfzn2PkTQNy7bRDHsBISswk1u1K~g3vflLXX2~Fv9dHCegEVdJgRdIc0jPBORbw__);
+  background-image: url(/src/IMG/pic2-p5.png);
   background-position: center;
   background-size: cover;
 }
 
 .img-five--3 {
-  background-image: url(https://s3-alpha-sig.figma.com/img/e5dc/3855/0a261aff3048e051a17afcb6f098eece?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KoQu-JS9XAhjZBHOhw1yxCkQTVvvVX4HlVeOX5Rwfl9AmZrNHxRldPCeczeaMyZ7RBc41PVUA6N0WZr573rZRV3GiIc57JXjqmpVLbBP2mRBH3YuiJmG-GbaW1oK23OvbkZQJu8WyilSr5HNMADQZiJCNc~b-c2AM~hkVj9VLae7jYG-bolOJ8h4pv8XTj5S8gDO0Lbhd2Et5MbCBWhytPnZFhQmvKHzSP2i8nYghCrcQtAqLTjj01AZIYrXpaSGM5AZmO5h1ZvnCaY0e2Soc96fGgT9JcXVdEiRX9eeziOJ-JY-hWClFx2JEDzMnn4SaKcpTUpxpRFZ8gE-XshCiA__);
+  background-image: url(/src/IMG/pic3-p5.png);
   background-position: center;
   background-size: cover;
 }
 
 .img-five--4 {
-  background-image: url(https://s3-alpha-sig.figma.com/img/af26/7151/7f27ca6b76bb3ce0eea9445af71ef82d?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L5g-8AkA7kPFZ-gS~73zStDomGqv9MGdxUFu5Kgz5whpM7h0I7jyhXp9wKFIZEnBvtJAHG7bYBXEXU02E--GcgXJksu7-Gkdii9Ijn5WYn9BK7RQBC2atPLK0xI~MDJvpso-GMMq8KRZCbQsCNtCf6MdvZ9-3Yps7bIYPkkutacIeWOEUX9729hywNB~aecYZFsBcQat-LDMfwBko3kJOX-S~P1E7cfq5P0wZbOxVHKsCRwAaJGR4Qu~1VNiZqqbY2Iw2JgCJdb6vJx3EWWflGsON3BBZKBMvDN27uPFdBHhphE50qAeZjrGoprb0GMZQiIlrY6i8P4bBXKgAbgT~A__);
+  background-image: url(/src/IMG/pic4-p5.png);
   background-position: center;
   background-size: cover;
 }
@@ -804,7 +808,7 @@ div.label--five {
   left: 6.5rem;
   gap: 0px;
   opacity: 0px;
-  background-image: url(https://s3-alpha-sig.figma.com/img/5345/79a5/4dda7edeb94bf3cfcc5b50750bd52345?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CMUgcmY5TZpzdzRDO1sZXJNwhmrxZHgRtf28SNXNrX4WwBzPxdPiWSlhjfyLmC-XU8DTrbSYVhKp~1dUYxhkeQUdd6AMUUoR1s2mDDBQ9vdmYVwf~Pg-96K1hKh1JfnP71qa2BUlSQgvvBcrnvHzY~HIycVYyhyQ6uNt2BjrLFzrXiv0z4T-x7yo4es1wOR3XEIqBtniHS7qrwti6-ctvK~skHQdEGxRtUr4J6gVcJlYxnZAsAyjPiL9LDdaig~1oVrWaOKRiIwiE3M6tH-pUp797pdXTH4ke~aUBU9AeWxIYvaPsfkKNmDHDCrjYYJJXrQ2qFBgAEPff~1goe6D6w__);
+  background-image: url(/src/IMG/theboyhair.png);
   background-position: center top;
   background-repeat: no-repeat;
   border-radius: 50%;
@@ -823,15 +827,20 @@ form.form--six {
   box-shadow: rgba(100, 100, 111, 0.5) 0px 0px 30px 20px;
 }
 
+.main-six_content2 {
+  padding: 1rem 0.8rem;
+}
+
 .input {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .information {
   margin: 1rem 0;
-  background-color: rgb(241, 239, 239);
+  background-color: rgb(255, 255, 255);
   height: 2.5rem;
   min-width: 100%;
   border-radius: 5px;
@@ -868,13 +877,13 @@ div.button--six {
 }
 
 .img-one3--seven {
-  background-image: url(https://s3-alpha-sig.figma.com/img/af26/7151/7f27ca6b76bb3ce0eea9445af71ef82d?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=L5g-8AkA7kPFZ-gS~73zStDomGqv9MGdxUFu5Kgz5whpM7h0I7jyhXp9wKFIZEnBvtJAHG7bYBXEXU02E--GcgXJksu7-Gkdii9Ijn5WYn9BK7RQBC2atPLK0xI~MDJvpso-GMMq8KRZCbQsCNtCf6MdvZ9-3Yps7bIYPkkutacIeWOEUX9729hywNB~aecYZFsBcQat-LDMfwBko3kJOX-S~P1E7cfq5P0wZbOxVHKsCRwAaJGR4Qu~1VNiZqqbY2Iw2JgCJdb6vJx3EWWflGsON3BBZKBMvDN27uPFdBHhphE50qAeZjrGoprb0GMZQiIlrY6i8P4bBXKgAbgT~A__);
+  background-image: url(/src/IMG/pic3-p5.png);
   background-position: center;
   background-size: cover;
 }
 
 .img-one4--seven {
-  background-image: url(https://s3-alpha-sig.figma.com/img/e5dc/3855/0a261aff3048e051a17afcb6f098eece?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KoQu-JS9XAhjZBHOhw1yxCkQTVvvVX4HlVeOX5Rwfl9AmZrNHxRldPCeczeaMyZ7RBc41PVUA6N0WZr573rZRV3GiIc57JXjqmpVLbBP2mRBH3YuiJmG-GbaW1oK23OvbkZQJu8WyilSr5HNMADQZiJCNc~b-c2AM~hkVj9VLae7jYG-bolOJ8h4pv8XTj5S8gDO0Lbhd2Et5MbCBWhytPnZFhQmvKHzSP2i8nYghCrcQtAqLTjj01AZIYrXpaSGM5AZmO5h1ZvnCaY0e2Soc96fGgT9JcXVdEiRX9eeziOJ-JY-hWClFx2JEDzMnn4SaKcpTUpxpRFZ8gE-XshCiA__);
+  background-image: url(/src/IMG/pic4-p5.png);
   background-position: center;
   background-size: cover;
 }
@@ -905,7 +914,7 @@ div.button--six {
   left: 2rem;
   gap: 0px;
   opacity: 0px;
-  background-image: url(https://s3-alpha-sig.figma.com/img/0f49/c28d/8df167acdc031b26c2e41688d52d1cbd?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=UGlJ7XdJy4idD32USpDU0gs5FGc2nqaoX~30EM3noeCz0k7Za-JnvgKAx2RWG4tYFhQ18qj7gCJr2eRQ0YOPAgryGRKUzJVE29oaYYpAE3gwdCHcbhDCUKAJocSqrvvT0pPi7DtikPmmfMZNhPSzrzCFHOZWF~VqjMkNgASeJZJaQLr5SQ0C-AoDhakahp5EU45xPvtKkEJf5G-w0hwR-jGn~GgdwyUlAT40JYX80sZzuHFrKO1Anu7MgL~RsCr6CVCvVV9Z9pBkszJdKm2ihuJOdDffKhkGsS2wCZSw2kFaQf1I95yBaVNpS1oF3~WjHczW7Tw31kyoJkMU9dkIKg__);
+  background-image: url(/src/IMG/thebook.png);
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -942,6 +951,21 @@ div.test--eight {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.box-ten {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+}
+
+.box--one {
+  font-size: 3rem;
+  width: 30%;
+  flex: 1;
+  margin: 1rem;
 }
 
 .box {
@@ -969,6 +993,8 @@ div.test--eight {
 }
 
 .shadow {
+  width: 100%;
+  height: 100%;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -976,7 +1002,7 @@ div.test--eight {
 
 .aqua {
   display: flex;
-  margin: 2rem;
+  margin: 1.5rem 0.5rem;
 }
 
 .aqua_label--label {
@@ -988,7 +1014,7 @@ div.test--eight {
   height: 3rem;
   background-size: cover;
   background-position: right;
-  background-image: url(https://s3-alpha-sig.figma.com/img/382e/bcf2/b8daf32caf49a6c2bb4bdad280501481?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=q6enwQ4uYPGUUoDh7DfqSw16J7ZIR219dQ87JmwJ-mwsUA1mn2YAAaJuTKGdwze96cXo3jMicPtdGzZaGWDpQWGBb0I-Sn9F7VJwygi4-YI6IX8tgJFJajkrRB6nkLnMvutD4I82fpDPf7uZNrZIEFFJBFyomY6tZSSZEneNVH7RuUpFNTG9iaUwGXLMjmLwlTfjYll-hCXR7xOpLBkUzWq4eA1SWJ85Un4aTKZV8cHYOAhCssqPGkQzttUokE11YfzINvn5nPxO5hHO~CM0tYR-SPRpOrHFYfSD3oYxU3SFN3kxzy2bXB-scoPI-oKextFzfr4Rjjntkkgn~fkG9A__);
+  background-image: url(/src/IMG/rv-one.jpg);
   border-radius: 50%;
 }
 
@@ -996,7 +1022,7 @@ div.test--eight {
   width: 3rem;
   height: 3rem;
   background-size: cover;
-  background-image: url(https://s3-alpha-sig.figma.com/img/4645/955c/ee7049d5ed2f4232ab2455884f548950?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fgoQuM1sKsKIMShN19sdNkSWQ5DxLBgAqGriUbZA6RHc3fsVtRP0glOY288aPC-KfVASJC88VZM1cNJdj2EryeVSWL2EjLsLFIkPAeCsjG2ylk9vRktUyFgVy2-kkTR2oHWCxK4Eu5Jc52gVzNnSOutED283kwfSZiPhezKUfQjm4DbrU83-qUtRkpol3mcI3HIQhodqLzZtnm8iX~OuGKBdAllba6KNvAkdtjOqGTC8lPofqRfcbVMjJ6KcehOY0E0-d9TcRcSP2zXJjKf2EOuclma-qYmM6AQQLI9ZoF5P0JXBaqAQn094jZUPKLr60liiwks2DbWYRdDtAOq6iA__);
+  background-image: url(/src/IMG/rv-two.jpg);
   border-radius: 50%;
 }
 
@@ -1014,7 +1040,7 @@ div.test--eight {
   image-rendering: pixelated;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 2rem 0;
+  padding: 2rem 0.8rem;
   /* Tablet */
 }
 
@@ -1027,6 +1053,7 @@ div.test--eight {
   width: 100%;
 }
 
+.footer_box--3,
 .footer_box--1 {
   display: flex;
   justify-content: space-around;
@@ -1039,7 +1066,11 @@ div.test--eight {
 .email_button {
   margin: auto;
   height: 2rem;
-  width: 50%;
+  width: 70%;
+}
+
+.footer_box--3 {
+  display: none;
 }
 
 li.head > a:hover {
@@ -1070,82 +1101,235 @@ button:hover {
     opacity: 1;
   }
 }
-.bars {
+.navbar {
   display: none;
 }
 
 /* Pc */
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (max-width: 1025px) {
   .course-item {
     flex-basis: 40%;
   }
+  .header__nav {
+    width: 100vw;
+  }
+  .moves {
+    display: none;
+  }
+  .up {
+    display: none;
+  }
+  .main-one_content {
+    flex-wrap: nowrap;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  .course-item {
+    flex-basis: 45%;
+  }
+  img.course-img-item {
+    height: 180px;
+  }
+  .shadow {
+    padding: 0.8rem;
+  }
+  .img-girl--four {
+    right: 6rem;
+  }
 }
-/* Mobie */
-@media (max-width: 740px) {
-  #wrepper {
-    /* overflow: hidden; */
+@media (max-width: 770px) {
+  #header {
+    display: block;
   }
   .gird {
-    width: 700px;
-  }
-  body {
-    width: 100vw;
-    overflow: auto;
     margin: 0;
   }
-  div.up {
-    display: none;
-  }
-  html {
-    /* 1rem=10px */
-    font-size: 40px;
-  }
-  #header {
-    padding: 0 3rem 2rem 0;
-    height: 1000px;
-    /* overflow: hidden; */
-  }
-  .header__background {
-    /* height: 600px; */
-    padding: 0 26rem 0 5rem;
-    box-sizing: unset;
-    width: 100vw;
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .nav__head1 {
+  .navbar {
     display: flex;
-    flex-direction: row;
+    flex-basis: 0.2 0.6 0.2;
+    background-color: #fff;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
   }
-  .bars {
-    display: block;
-    margin-left: 10rem;
+  .bars--1,
+  .bars--3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    width: 20%;
+  }
+  li.bars--2 {
+    width: 80%;
   }
   .header__nav {
-    display: block;
-  }
-  .nav__head2,
-  .nav__head3 {
     display: none;
   }
-  .bars:hover.nav__head2,
-  .bars:hover.nav__head3 {
-    display: block;
-  }
-  /* Main two */
-  .main-two--flex {
-    flex-direction: column;
-    justify-content: center;
-  }
-  .main-two_content1,
-  .main-two_content2 {
+  .khoinho {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: unset;
+    width: 65%;
+    height: 7.5rem;
+    font-size: 1.5rem;
+    box-shadow: none;
     text-align: center;
     margin: auto;
   }
-  /* main four */
+  .main {
+    margin: 7rem 0rem;
+  }
+  .main-one {
+    margin: 7rem 0rem;
+  }
+  .main-two--flex,
+  .main-four--flex,
+  .main-six--flex,
+  .main-eight--flex {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .main-four_content1--eight,
+  .main-two_content2,
+  .main-four_content1,
+  .main-six_content2 {
+    text-align: center;
+    padding: 3rem 0rem;
+  }
+  .img-girl--four {
+    right: 2rem;
+  }
+  .main-five_content {
+    width: 100vh;
+    height: 235px;
+    margin: 0px;
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  .content_ten {
+    overflow-y: hidden;
+    overflow-x: auto;
+  }
+  .main-two_content2,
+  .main-two_content1,
+  .main-four_content2,
+  .main-eight_content2,
+  .main-four_content1 {
+    margin-top: 2rem;
+  }
+  .shadow {
+    width: 108%;
+  }
+  .gird {
+    margin: auto;
+  }
+  .students {
+    font-size: 2.5rem;
+  }
+}
+/* Mobie */
+@media (max-width: 430px) {
+  .moves {
+    display: none;
+  }
+  .khoinho {
+    width: 80%;
+    font-size: 1rem;
+  }
+  .main {
+    margin: 4rem 1rem;
+    font-size: smaller;
+  }
+  .center {
+    font-size: 2.5rem;
+  }
+  .up {
+    display: none;
+  }
+  .header__background {
+    height: 29rem;
+  }
+  .main-one {
+    margin-top: 2rem;
+  }
+  .img_one {
+    width: 150px;
+    height: 250px;
+    border-radius: 0.5rem;
+  }
+  .img_one::after {
+    width: 150px;
+    height: 250px;
+    border-radius: 0.5rem;
+  }
+  .label {
+    top: -12rem;
+    text-align: center;
+    margin: auto;
+    width: 130px;
+  }
   .course-item {
-    flex-basis: 40%;
+    flex-basis: 47%;
+    width: 47%;
+    /* height: 251px; */
+    font-size: 12px;
+  }
+  td {
+    font-size: smaller;
+  }
+  .course-td-item {
+    font-size: smaller;
+    margin: 0.2rem;
+  }
+  img.course-img-item {
+    height: 90px;
+  }
+  .course {
+    margin: 0.5rem;
+  }
+  .course-money-item {
+    font-size: smaller;
+  }
+  .students,
+  .examination,
+  .examination--eight,
+  h1 {
+    font-size: 2rem;
+  }
+  .box-ten {
+    flex-direction: column;
+  }
+  .box--one {
+    width: 60%;
+  }
+  .moves--ten {
+    display: block;
+    top: 15rem;
+    right: -16rem;
+  }
+  .shadow {
+    width: 19rem;
+  }
+  .main-footer--flex {
+    flex-direction: column-reverse;
+  }
+  .footer_box--1 {
+    display: none;
+  }
+  .footer_box--3 {
+    display: block;
+  }
+  .footer_box--2 {
+    text-align: left;
+  }
+  .input {
+    width: 100%;
+  }
+  .gird {
+    margin: 0;
   }
 }/*# sourceMappingURL=index.css.map */
