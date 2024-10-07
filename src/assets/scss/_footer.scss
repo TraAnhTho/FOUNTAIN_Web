@@ -7,7 +7,7 @@
   animation: fadeIn ease 2s;
 }
 .background_black {
-  background-color: var(--color_black);
+  background-color: var($color_black);
   //   width: 100%;
   image-rendering: pixelated;
   background-size: cover;
