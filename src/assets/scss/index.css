@@ -72,7 +72,7 @@ img {
 }
 
 .icon_colormain {
-  color: var(#f77e23);
+  color: #f77e23;
   width: 1rem;
   height: 1rem;
   margin: auto auto;
@@ -104,7 +104,7 @@ h1 {
 
 .box_moves {
   position: absolute;
-  background-color: var(white);
+  background-color: white;
   width: 148px;
   height: 190px;
   border-radius: 10px;
@@ -413,7 +413,7 @@ div.label {
 /* PHẦN MAIN-TWO */
 /* PHẦN MAIN-TWO */
 .main-two {
-  background-image: var(--background_main);
+  background-image: linear-gradient(30deg, rgba(247, 126, 25, 0.4), #ffffff);
 }
 
 .main-two_content1 {
@@ -840,8 +840,8 @@ form.form--six {
 }
 
 .button--six {
-  background-color: var(#f77e23);
-  color: var(white);
+  background-color: #f77e23;
+  color: white;
   height: 2rem;
   width: 7rem;
   border-radius: 5px;
@@ -980,7 +980,7 @@ div.test--eight {
   width: 2.5rem;
   border-radius: 50%;
   border: 1px solid #f77e23;
-  background-color: var(white);
+  background-color: white;
   margin: 1rem;
 }
 
@@ -1028,7 +1028,7 @@ div.test--eight {
 }
 
 .background_black {
-  background-color: var(#000);
+  background-color: #000;
   image-rendering: pixelated;
   background-size: cover;
   background-repeat: no-repeat;

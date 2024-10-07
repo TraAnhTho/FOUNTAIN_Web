@@ -175,8 +175,8 @@ form.form--six {
   border: 1px solid gray;
 }
 .button--six {
-  background-color: var($color_main);
-  color: var($color_while);
+  background-color: $color_main;
+  color: $color_while;
   height: 2rem;
   width: 7rem;
   border-radius: 5px;
@@ -299,7 +299,7 @@ div.test--eight {
   width: 2.5rem;
   border-radius: 50%;
   border: 1px solid #f77e23;
-  background-color: var($color_while);
+  background-color: $color_while;
   margin: 1rem;
 }
 .shadow {
